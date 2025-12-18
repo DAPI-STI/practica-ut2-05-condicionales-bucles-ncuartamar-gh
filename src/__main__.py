@@ -5,15 +5,17 @@ Desde aquí puedes probar las funciones SIN usar pytest.
 Este archivo NO se evalúa automáticamente.
 """
 
-from .ex01_sign import sign
-from .ex02_leap_year import is_leap_year
-from .ex03_sum_first_n import sum_first_n
-from .ex04_factorial import factorial
-from .ex05_table import multiplication_table
-from .ex06_fizzbuzz import fizzbuzz
+from ex01_sign import sign
+from ex02_leap_year import is_leap_year
+from ex03_sum_first_n import sum_first_n
+from ex04_factorial import factorial
+from ex05_table import multiplication_table
+from ex06_fizzbuzz import fizzbuzz
 
 
 def main() -> None:
+
+    # Ejemplo:
     print("=== Pruebas manuales ===")
     print("sign(-3) ->", sign(-3))
     print("is_leap_year(2000) ->", is_leap_year(2000))
